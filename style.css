@@ -1,0 +1,67 @@
+html{
+    text-align: center;
+    
+}
+
+
+@media screen and (min-width:600px){
+
+    
+    .content{
+        margin-top: 10px;
+        /* display: inline-block; */
+        list-style: none;
+        margin-left:60px;
+        width: 30em;
+    }
+}
+
+#content{
+    list-style: none;
+}
+
+.button-class{
+    
+    /* display: inline-block; */
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.push-class{
+    color: royalblue;
+}
+
+.save-class{
+    color: royalblue;
+}
+
+.load-class{
+    color: royalblue;
+}
+
+.remove_content{
+    display: none;
+}
+
+div{
+    display: inline-block;
+}
+
+@media screen and (max-width:700px){
+    #input-text{
+       margin:0 auto;
+    }
+
+    #buttons{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .content{
+        width: 200px;
+        text-align: left;
+    }
+
+    
+}
