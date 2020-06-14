@@ -45,7 +45,7 @@ document.getElementById('button').onclick = function() {
       var sound = new Audio('decision1.mp3')
       sound.play();
       textchange_target.classList.add('push-class');
-      textchange_target.value = 'コピー完了';
+      textchange_target.value = '完了';
       let textchange = function(){
          textchange_target.value = 'コピー'
          textchange_target.classList.remove('push-class');
@@ -164,7 +164,7 @@ document.getElementById('button').onclick = function() {
             var sound = new Audio('decision1.mp3')
             sound.play();
             textchange_target.classList.add('push-class');
-            textchange_target.value = 'コピー完了';
+            textchange_target.value = '完了';
             let textchange = function(){
                textchange_target.value = 'コピー'
                textchange_target.classList.remove('push-class');
