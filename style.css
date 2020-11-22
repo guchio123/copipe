@@ -48,6 +48,73 @@ div{
     display: inline-block;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    }
+    
+    .modal-content{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin: 10% auto;
+    }
+
+    .newsavebutton{
+        margin-bottom:15px ;
+        width:300px;
+        padding: 20px;
+        display: none;
+    }
+
+    .dataname{
+        margin-right: 15px;
+    }
+
+    .saveul{
+        text-align: center;
+        height: 70px;
+        margin: auto;
+    }
+
+    .okbutton{
+        display: none;
+    }
+
+    .dataname{
+        display: none;
+    }
+
+    .dataname{
+        padding: 10px;
+    }
+
+    .savelist{
+        padding: 0;
+        
+    }
+
+    .savecontent{
+        margin: 10px;
+        list-style: none;
+        border: solid;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .savecontent:hover{
+        background-color:grey;
+    }
+    
+    
+
 @media screen and (max-width:700px){
     #input-text{
        margin:0 auto;
@@ -59,9 +126,7 @@ div{
     }
 
     .content{
-        width: 170px;
+        width: 240px;
         text-align: left;
     }
-
-    
 }

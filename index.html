@@ -1,13 +1,11 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     <meta  name="viewport" charset="utf-8"  content="width=device-width　,initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
     <title>コピペ保存</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script> -->
-</head>
-<header>
+
+<header　id="main">
     <h2>コピペ保存</h2>
     <input type="text" id="input-text" placeholder="Past here!">
     <div id="buttons">
@@ -18,6 +16,28 @@
     </div>
     <ul id="content"></ul>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+   
 </header>    
+
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-body">
+      <h1 id ='modal-text'>どのセーブデータにセーブしますか？</h1>
+      <div class='saveul' id="saveul">
+      <input value = '新しいセーブデータを作る' type = 'button' class = 'newsavebutton' id='newsavebutton'>
+      <input type='text' placeholder ='セーブデータ名前' class='dataname' id='dataname'>
+      <input value = 'セーブ' type = 'button' id='okbutton' class ='okbutton'>
+      
+      </div>
+    <ul class ='savelist' id='savelist'>
+     
+    </div>
+  </div>
+    <script src="main.js"></script>
+</div>
+
+    
+</div>
+
 </html>
