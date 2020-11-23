@@ -63,13 +63,13 @@ div{
     .modal-content{
     text-align: center;
     background-color: white;
-    width: 600px;
+    width: 50%;
     margin: 10% auto;
     }
 
     .newsavebutton{
         margin-bottom:15px ;
-        width:300px;
+        width:50%;
         padding: 20px;
         display: none;
     }
@@ -120,13 +120,37 @@ div{
        margin:0 auto;
     }
 
+    .modal-content{
+        width: 90%;
+    }
+
+    .modal-body{
+        width: 100%;
+    }
+
+    .newsavebutton{
+        width: 100%;
+    }
+
+    .saveul{
+        width:90%;
+    }
+
     #buttons{
         margin: 0 auto;
         margin-top: 10px;
     }
 
     .content{
-        width: 240px;
+        width: 60%;
         text-align: left;
+    }
+
+    #content{
+        padding-left:0 ;
+    }
+
+    #list{
+        margin-bottom: 10px;
     }
 }
