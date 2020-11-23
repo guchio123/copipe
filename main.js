@@ -277,8 +277,8 @@ $('#load').click(function(){
          li_content.append(elemLi);
          document.getElementById('content').appendChild(li_content);
          // li_content.appendChild(target);
-         let new_sound = new Audio('decision7.mp3')
-         new_sound.play();
+         // let new_sound = new Audio('decision7.mp3')
+         // new_sound.play();
          // コピーボタン追加
          let addButton = document.createElement('input');
          addButton.type = 'button';
